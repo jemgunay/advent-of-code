@@ -63,6 +63,6 @@ func main() {
 		similarityScore += left * rightListCounts[left]
 	}
 
-	fmt.Printf("sum: %v\n", sum)
-	fmt.Printf("similarity: %d\n", similarityScore)
+	fmt.Printf("sum: %v\n", sum)                    // sum: 1580061
+	fmt.Printf("similarity: %d\n", similarityScore) // similarity: 23046913
 }
